@@ -1,0 +1,6 @@
+@DataProducer_HostAddress = http://localhost:5234
+
+GET {{DataProducer_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
